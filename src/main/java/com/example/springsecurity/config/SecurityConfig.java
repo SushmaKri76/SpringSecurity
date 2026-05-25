@@ -35,10 +35,10 @@ public class SecurityConfig {
 //        return new InMemoryUserDetailsManager(userDetails);
 //    }
 
-    @Bean
-    public JdbcUserDetailsManager jdbcUserDetailsManagerBean(DataSource dataSource) {
-        return new JdbcUserDetailsManager(dataSource);
-    }
+//    @Bean
+//    public JdbcUserDetailsManager jdbcUserDetailsManagerBean(DataSource dataSource) {
+//        return new JdbcUserDetailsManager(dataSource);
+//    }
 
     @Bean
     public PasswordEncoder passwordEncoder() {
